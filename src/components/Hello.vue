@@ -30,7 +30,7 @@
   </router-link> 
   </section>
   <div class="comp">
-    <!-- <quiz :quest="quest"></quiz> -->
+    <quiz :quest="quest"></quiz>
   </div>
 </section>
 
@@ -51,13 +51,20 @@ h1{
   font-size: 3em;
 }
 p {
+
   color:#fff;
-  text-decoration:none;
+  position: relative;
+  left:  4,5%;
+  top: 40%;
+
+
+ 
 }
  section {
   background-color: #ADFF2F;
   margin: 0;
   position: 0;
+
 }
 .titulo {
   text-align: center;
@@ -69,19 +76,20 @@ p {
   font-size: 1.5em;
 }
 .menu{ 
+  
   text-align: center;
-  justify-content: center;  
+  justify-content: center; 
+   text-decoration:none; 
   font-size: 2em;
   background-size: cover;
   background-position: center;  
   background-repeat: no-repeat;
   height:100vh;
-  
-
 }
 /*@media screen and(max-width:1024px){
-  
-}*/
+  .menu{
+    display: flex;
+  }*/
 
 .meio-ambiente{ 
 background-color: rgba(230,120,88,0.5);  
@@ -103,6 +111,7 @@ height: 100%;
   background-color: rgba(230,120,88,0.5);  
   height:100%;
 }
+
 .contenier2{
   background-image: url(../assets/saude.jpg);
   height: 40%;
@@ -122,9 +131,9 @@ height: 100%;
     background-position: center;
 }
 
-.comp{
+/*.comp{
   display: none;
-}
+}*/
 
 /*@media screen and (max-width: 320px)*/
 

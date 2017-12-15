@@ -111,15 +111,15 @@
 						pergunta: "Qual a quantidade de lixo que um habitante gera por dia no Rio de Janeiro? ",
 						alternativa1:{
 							texto:"3 Kg",
-							fundo:""
+							fundo:"../assets/lixeira.jpg"
 						},
 						alternativa2:{
 							texto:"2,5 Kg",	
-							fundo:""
+							fundo:"../assets/lixeira.jpg"
 						},
 						alternativa3:{
 							texto:"1,86",
-							fundo:""
+							fundo:"../assets/lixeira.jpg"
 						}
 					}
  				],
@@ -191,15 +191,15 @@
  					pergunta:"Quanto tempo dura uma tampa de garrafa no meio ambiente?",
  					alternativa1:{
  						texto:"2 anos",
- 						fundo:""
+ 						fundo:"../assets/tampa-de-garrafa-pet.jpg"
  					},
  					alternativa2:{
  						texto:"2 meses",
- 						fundo:""
+ 						fundo:"../assets/tampa-de-garrafa-pet.jpg"
  					},
  					alternativa3:{
  						texto:"15 anos",
- 						fundo:""
+ 						fundo:"../assets/tampa-de-garrafa-pet.jpg"
  					}
 
  				},
@@ -207,31 +207,31 @@
  					pergunta:"Qual é o tempo de decomposição da garrafa pet?",
  					alternativa1:{
  						texto:"10 anos",
- 						fundo:""
+ 						fundo:"../assets/garrafa.JPG"
  					},
  					alternativa2:{
  						texto:"50 meses",
- 						fundo:""
+ 						fundo:"../assets/garrafa.JPG"
  					},
  					alternativa3:{
  						texto:"500 anos",
- 						fundo:""
+ 						fundo:"../assets/garrafa.JPG"
  					}
  				},
  				{
  					pergunta:"O que devemos colocar no pratinho da planta?",
  					alternativa1:{
  						texto:"Água",
- 						fundo:""
+ 						fundo:"../assets/agua.jpg"
 
  					},
  					alternativa2:{
- 						texto:"Água",
- 						fundo:""
+ 						texto:"Areia",
+ 						fundo:"../assets/areia-grossa.png"
  					},
  					alternativa3:{
  						texto:"Barro",
- 						fundo:""
+ 						fundo:"../assets/barro.jpg"
  					}
  				},
  				{
@@ -257,6 +257,8 @@
 		methods:{
 			addmeioambiente(){
 				return this.preenchimento = 'MeioAmbiente'
+				       this.quest=''
+
 			},
 			addsaude(){
 				return
@@ -282,7 +284,7 @@ section {
 	text-decoration:none;
 
 }
-li{
+/*li{
 	text-decoration: none;
 }
 
@@ -295,17 +297,17 @@ li{
 	
 .todas{
 	width: 25%;
-	/*height: 50%;*/
-ss	background-color: orange;
+	height: 50%;
+	background-color: orange;
 	background-size: 100%;
 	background-repeat: no-repeat;
 
 }
 .consumo{
 	width: 25%;
-	background-color: orange;
-}
-.cuidado{
+	background-color: orange;*/
+/*}*/
+/*.cuidado{
 	width: 25%;
 	background-color: orange;
 
@@ -327,6 +329,5 @@ ss	background-color: orange;
 	width: 30%;
 	background-color: orange;
 }
-
+*/
 </style>
-@media screen and (max-width: 320px)
